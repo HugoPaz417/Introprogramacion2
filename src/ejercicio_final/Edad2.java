@@ -83,12 +83,13 @@ public class Edad2 {
             int days= (dia_a - dia_n) + dias_mas;
             if (days>=31)
                 months = months+1;
+            while (days >=30)
+                days=days-1;
             System.out.println("Edad: "+year+" años, "+months+" meses, "+days+" dias, "+hora+" horas.");
-            break;
-            } else {
+        } else {
             System.out.println("Error");
-            break;
         }
+            break;
         }
     }
 }

@@ -10,7 +10,7 @@ public class tabla {
         int numeros_generar = teclado.nextInt();
             int n_1 = 0;
             int n_2 = 1;
-            int n;
+            int n   ;
             for (int f = 1; f <= numeros_generar+1; f++) {
                 n=n_1;
                 n_1=n_2 + n_1;
