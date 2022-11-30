@@ -13,8 +13,8 @@ public class TablaAsterisco {
             String fila_asteriscos = "";
             for (int col = 1; col <= columnas; col++) {//Número de columnas
                 fila_asteriscos=fila_asteriscos+"*";
+                System.out.println(fila_asteriscos);
                 }
-            System.out.println(fila_asteriscos);
         }
     }
 }

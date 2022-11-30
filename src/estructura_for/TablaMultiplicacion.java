@@ -1,7 +1,6 @@
 package estructura_for;
 
 import java.util.Scanner;
-
 public class TablaMultiplicacion {
     public static void main(String[] args) {
         System.out.println("Ingrese un número");
