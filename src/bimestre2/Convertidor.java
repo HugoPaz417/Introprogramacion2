@@ -13,7 +13,7 @@ public class Convertidor {
             System.out.println("Op 3: convertir un valor de MB a bits");
             System.out.println("Op 4: Salir");
             int opcion = sc.nextInt();
-            if (opcion < 0 || opcion > 4) {
+            if (opcion < 1 || opcion > 4) {
                 System.out.println();
                 System.out.println("Error intente de nuevowo");
                 System.out.println();
