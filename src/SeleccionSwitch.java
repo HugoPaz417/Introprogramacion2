@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class SeleccionSwitch {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Ingreseun numero del 1 al 7");
+        System.out.println("Ingrese un numero del 1 al 7");
         int opcion = teclado.nextInt();
         switch (opcion){
             case 1:
