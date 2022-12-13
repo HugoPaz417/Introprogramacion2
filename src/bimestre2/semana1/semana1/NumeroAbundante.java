@@ -1,4 +1,4 @@
-package bimestre2.semana1;
+package bimestre2.semana1.semana1;
 
 import java.util.Scanner;
 
