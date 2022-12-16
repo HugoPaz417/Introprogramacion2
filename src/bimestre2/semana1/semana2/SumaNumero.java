@@ -26,7 +26,11 @@ public class SumaNumero {
         }
         for (int indice = 0; indice < n; indice++) {
             suma[indice] = numeros1[indice]+numeros2[indice];
+        }
+        for (int indice = 0; indice < n; indice++) {
+            System.out.println(numeros1[indice]+" + "+numeros2[indice]);
             System.out.println(suma[indice]);
+
         }
     }
 }
