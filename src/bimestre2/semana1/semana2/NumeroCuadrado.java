@@ -6,7 +6,7 @@ public class NumeroCuadrado {
         int tam_n = numeros.length;
         for (int indice = 0; indice <tam_n ; indice++) {
             int n_cuadrado = (numeros[indice]*numeros[indice]);
-            System.out.println(n_cuadrado);
+            System.out.println((numeros[indice])+" al cuadrado = "+(n_cuadrado));
         }
     }
 }
