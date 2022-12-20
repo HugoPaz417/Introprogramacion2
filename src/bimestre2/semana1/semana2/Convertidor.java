@@ -13,7 +13,7 @@ public class Convertidor {
         for (int indice = 0; indice < n_binario.length; indice++) {
             System.out.println("Ingrese la cifra "+(indice+1));
             int n = sc.nextInt();
-            if (n<0 || n>1) {
+            if (n!=0 && n!=1) {
                 System.out.println("Error, no es un numero binario");
                 break;
             }
@@ -24,5 +24,6 @@ public class Convertidor {
             acumulador = acumulador+suma;
         }
         System.out.println(acumulador);
+        System.out.println(n_binario.length);
     }
 }
