@@ -6,7 +6,7 @@ public class OrdenamientoBurbuja {
         //controlamos el número de pasadas
         for (int indice = 0; indice < numeros.length; indice++) {
             for (int elemento = 0; elemento < numeros.length - 1; elemento++) {
-                //Verificar si realizamos un intercambio ntercambio
+                //Verificar si realizamos un intercambio
                 if (numeros[elemento] > numeros[elemento + 1]) {
                     int aux = numeros[elemento];
                     numeros[elemento] = numeros[elemento+1];
