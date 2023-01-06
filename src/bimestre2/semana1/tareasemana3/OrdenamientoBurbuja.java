@@ -26,7 +26,7 @@ public class OrdenamientoBurbuja {
                 System.out.println(numeros[indice]);
             }
             long fin = System.nanoTime();
-            long resultado = (fin-inicio)/100000;
+            long resultado = (fin-inicio)/1000000;
             for (int j = 0; j < 1; j++) {
                 tiempo[j]=resultado;
             }
@@ -52,7 +52,7 @@ public class OrdenamientoBurbuja {
                 System.out.println(numeros_2[indice]);
             }
             long fin_2 = System.nanoTime();
-            long resultado_2 = (fin_2-inicio_2)/100000;
+            long resultado_2 = (fin_2-inicio_2)/1000000;
             for (int j = 1; j < 2; j++) {
                 tiempo[j]=resultado_2;
             }
@@ -77,7 +77,7 @@ public class OrdenamientoBurbuja {
                 System.out.println(numeros_3[indice]);
             }
             long fin_3 = System.nanoTime();
-            long resultado_3 = (fin_3-inicio_3)/100000;
+            long resultado_3 = (fin_3-inicio_3)/1000000;
             for (int j = 2; j == 2; j++) {
                 tiempo[j]=resultado_3;
             }
